@@ -4,7 +4,10 @@
 
 
 <form>
-  <label for='name'>What is your name?</label>
+  <label for='name'>
+    What is your name?
+  </label>
+
   <input
     bind:value={name}
     id='name'
@@ -17,15 +20,7 @@
   Hello, <span class='name'>{name}</span>!
 </h1>
 
-<ul>
-  <li><a href='/fetch'>Fetch</a></li>
-  <li><a href='/comment'>Comment</a></li>
-  <li><a href='/news'>News</a></li>
-</ul>
-
 
 <style>
-  .name {
-    color: red;
-  }
+  .name { color: red; }
 </style>

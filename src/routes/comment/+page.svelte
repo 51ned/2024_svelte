@@ -1,4 +1,5 @@
 <script lang='ts'>
+  import { enhance } from '$app/forms'
   export let form
 </script>
 
@@ -8,23 +9,21 @@
     <p>{form.msg}</p>
   {/if}
 
-  <form method='POST'>
+  <form
+    action='?/create'
+    method='POST'
+    use:enhance
+  >
     <label>
       Comment
       <input name='comment' type='text'>
     </label>
 
-    <button>
-      Submit
-    </button>
+    <button>Submit</button>
+    <button formaction='?/star'>Star</button>
+    <button formaction='?/reply'>Reply</button>
   </form>
 </div>
-
-<ul>
-  <li><a href='/'>Main</a></li>
-  <li><a href='/fetch'>Fetch</a></li>
-  <li><a href='/news'>News</a></li>
-</ul>
 
 
 <style>

@@ -14,10 +14,4 @@
       </a>
     </li>
   {/each}
-
-  <ul>
-    <li><a href='/'>Main</a></li>
-    <li><a href='/fetch'>Fetch</a></li>
-    <li><a href='/comment'>Comment</a></li>
-  </ul>
 </ul>
