@@ -1,5 +1,13 @@
 <script lang='ts'>
   import { enhance } from '$app/forms'
+  
+  let comment = ''
+
+  export const snapshot = {
+    capture: () => comment,
+    restore: (item) => comment = item
+  }
+
   export let form
 </script>
 
@@ -16,7 +24,11 @@
   >
     <label>
       Comment
-      <input name='comment' type='text'>
+      <input
+        bind:value={comment}
+        name='comment'
+        type='text'
+      />
     </label>
 
     <button>Submit</button>

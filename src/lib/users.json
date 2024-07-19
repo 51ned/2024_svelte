@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "username": "bob",
+    "password": "$2b$10$7aEgVzoZOVfW5h2SU8.neOn8QYCKqsLBU3L4U9DrrXRZhe4oY0GEe",
+    "identity": "b014d552-57e7-4d00-9f37-d8febd9b296c",
+    "name": "Bob"
+  },
+  {
+    "id": "2",
+    "username": "dylan",
+    "password": "$2b$10$R5F3XWJ18unBLICIoGIvPuRd8xMUwRW.azyZ7d0YYAElLKS.1SW66",
+    "identity": "a01b0b3f-48a0-49dc-bdc4-76e306e52af1",
+    "name": "Dylan"
+  }
+]
