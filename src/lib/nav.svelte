@@ -7,6 +7,7 @@
     <li><a href='/about'>About</a></li>
     <li><a href='/api/post'>API</a></li>
     <li><a href='/login'>Login</a></li>
+    <li><a href='/store'>Store</a></li>
   </ul>
 </nav>
 
